@@ -42,7 +42,6 @@ client.on('message', message => {
 
   }
 });
-
 // Create an event listener for new guild members
 client.on('guildMemberAdd', member => {
   // Send the message to a designated channel on a server:
@@ -52,8 +51,5 @@ client.on('guildMemberAdd', member => {
   // Send the message, mentioning the member
   channel.send(`Welcome to the alliance, ${member}`);
 });
-
-
 // Log our bot in
 client.login(process.env.BOT_TOKEN);
-
