@@ -1,0 +1,9 @@
+{
+"name": "test",
+"description": "test",
+"version": "0.1",
+"main": "HQ.js"
+"scripts": {
+  "start": "node HQ.js"
+  }
+  )
