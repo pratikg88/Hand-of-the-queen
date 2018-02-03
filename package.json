@@ -4,7 +4,7 @@
 "version": "0.1",
 "main": "HQ.js",
 "scripts": {
-  "start": "node HQ.js"
+  "start": "node hq_online.js"
   },
    "engines": {
     "node": "9.5.0",
