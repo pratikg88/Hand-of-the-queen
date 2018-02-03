@@ -1,1 +1,1 @@
-worker: node HQ.js
+worker: node hq_online.js
