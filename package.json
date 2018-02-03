@@ -2,7 +2,7 @@
 "name": "test",
 "description": "test",
 "version": "0.1",
-"main": "HQ.js"
+"main": "HQ.js",
 "scripts": {
   "start": "node HQ.js"
   },
