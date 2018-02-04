@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "testing",
   "main": "hq_online.js",
+  "engines": {
+  "node": "9.5.0",
+  "npm": "5.6.0"
+},
   "scripts": {
-    "test": "git repository: https://github.com/pratikg88/Hand-of-the-queen/blob/master/hq_online.js"
+    "test": "git repository: https://github.com/pratikg88/Hand-of-the-queen/blob/master/hq_online.js",
+	"start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,8 @@
     "discord.js"
   ],
   "author": "pratik",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
 }
