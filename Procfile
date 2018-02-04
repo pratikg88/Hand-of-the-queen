@@ -1,1 +1,1 @@
-worker: node hq_online.js
+Discordjs: node hq_online.js
