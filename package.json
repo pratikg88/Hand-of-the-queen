@@ -9,7 +9,7 @@
 },
   "scripts": {
     "test": "git repository: https://github.com/pratikg88/Hand-of-the-queen/blob/master/hq_online.js",
-	"start": "node index.js"
+	"start": "node hq_online.js"
   },
   "repository": {
     "type": "git",
