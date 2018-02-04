@@ -1,1 +1,1 @@
-Discordjs: node hq_online.js
+worker: npm start
