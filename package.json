@@ -1,23 +1,19 @@
 {
-"name": "hq_online",
-"description": "test",
-"version": "0.1",
-"main": "hq_online.js",
-"scripts": {
-  "start": "node hq_online.js"
+  "name": "hq_online.js",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "hq_online.js",
+  "scripts": {
+    "test": "git repository: https://github.com/pratikg88/Hand-of-the-queen/blob/master/hq_online.js"
   },
-   "engines": {
-    "node": "9.5.0",
-    "npm": "5.6.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pratikg88/Hand-of-the-queen/blob/master/hq_online.js"
   },
-"dependencies": {
-    "discord.js": "^11.3.0",
-  "request": "^2.78.0"
-},
-  "devDependencies": {
-    "browser-sync": "2.18.2",
-    "bootstrap-sass": "3.3.7",
-    "gulp": "3.9.1",
-    "gulp-sass": "2.3.2"
-  }
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "pratik",
+  "license": "MIT"
 }
