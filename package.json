@@ -3,7 +3,6 @@
 "description": "test",
 "version": "0.1",
 "main": "hq_online.js",
-  "config" : { "port" : "8080" },
 "scripts": {
   "start": "node hq_online.js"
   },
@@ -14,5 +13,10 @@
 "dependencies": {
     "discord.js": "^11.3.0",
   "request": "^2.78.0"
-}
+},
+    "scripts": {
+    "dev": "next",
+    "install": "next build",
+    "start": "next start -p ${PORT}"
+  }
 }
