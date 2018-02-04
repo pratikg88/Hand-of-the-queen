@@ -3,6 +3,7 @@
 "description": "test",
 "version": "0.1",
 "main": "hq_online.js",
+  "config" : { "port" : "8080" },
 "scripts": {
   "start": "node hq_online.js"
   },
@@ -11,7 +12,7 @@
     "npm": "5.6.0"
   },
 "dependencies": {
-    "discord.js": "^10.0.1",
+    "discord.js": "^11.3.0",
   "request": "^2.78.0"
 }
 }
