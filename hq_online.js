@@ -28,7 +28,7 @@ client.on('message', message => {
 	  // If the message is "!nap"
   if (message.content === '!nap') {
     
-    message.channel.send('\n Do not attack Lords they are Friendly \n Do not attack Hive because they are Murphys babies :stuck_out_tongue_winking_eye: \n We have temp NAP with Torch');
+    message.channel.send('\n . \n Do not attack Lords they are Friendly \n . \n Do not attack Hive because they are Murphys babies :stuck_out_tongue_winking_eye: \n . \n We have temp NAP with Torch');
 	 }
 	  // If the message is "!war"
   if (message.content === '!war') {
@@ -44,21 +44,9 @@ client.on('message', message => {
 });
 
 //Welcome new member
-client.on("guildMemberAdd", (member) => {
-  const guild = member.guild;
-  if (!newUsers[guild.id]) newUsers[guild.id] = new Discord.Collection();
-  newUsers[guild.id].set(member.id, member.user);
-
-  if (newUsers[guild.id].size > 1) {
-    const userlist = newUsers[guild.id].map(u => u.toString()).join(" ");
-    guild.channels.get(guild.id).send("Welcome to our alliance \n" + userlist);
-    newUsers[guild.id].clear();
-  }
-});
-
-client.on("guildMemberRemove", (member) => {
-  const guild = member.guild;
-  if (newUsers[guild.id].has(member.id)) newUsers.delete(member.id);
+client.on("guildMemberAdd", member => {
+  let guild = member.guild;
+  guild.defaultChannel.sendMessage('Welcome to our alliance ${member.user}.').catch(console.error);
 });
 
 // Log our bot in
