@@ -28,17 +28,17 @@ client.on('message', message => {
 	  // If the message is "!nap"
   if (message.content === '!nap') {
     
-    message.channel.send(':t Spanish \n . \n Do not attack Lords they are Friendly \n . \n Do not attack Hive because they are Murphys babies :stuck_out_tongue_winking_eye: \n . \n We have temp NAP with Torch');
+    message.channel.send(' \n . \n Do not attack Lords they are Friendly \n . \n Do not attack Hive because they are Murphys babies :stuck_out_tongue_winking_eye: \n . \n We have temp NAP with Torch');
 	 }
 	  // If the message is "!war"
   if (message.content === '!war') {
     
-    message.channel.send(':t Spanish Check !nap before hitting anyone. Make a good choices :fire:');
+    message.channel.send(' Check !nap before hitting anyone. Make a good choices :fire:');
 	}
 	  // If the message is "!help"
   if (message.content === '!help') {
     
-    message.channel.send(':t Spanish Use below keywords to get current information \n !R \n !nap \n !war');
+    message.channel.send(' Use below keywords to get current information \n !R \n !nap \n !war \n . \n use :t <language> Message to translate');
 
   }
 });
